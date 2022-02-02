@@ -8,11 +8,24 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-areas:
 "header header header header header header" 
 "header header header header header header"
+"nav article-1 article-1 article-1 ad-area ad-area"
+"nav article-1 article-1 article-1 ad-area ad-area"
+"nav article-2 article-2 article-2 ad-area ad-area"
+"nav article-2 article-2 article-2 ad-area ad-area"
 "footer footer footer footer footer foooter"
 }
 
+#article-1{
+grid-area: article-1;
+background-color: yellow;
 
 
+}
+#nav{
+grid-area: nav;
+background-color: orange;
+
+}
 
 
 
